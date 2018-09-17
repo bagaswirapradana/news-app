@@ -6,11 +6,10 @@ This application is connected to the internet and retrieves news from the News A
 * If user click one of the article, open a webview to display the article
 * On list of articles, provide a search function to search article titles and display the result
 ## Tools
-* Gradle v3.1.4
 * Android Studio v3.1.4
-* Android API v27
-* Android Build Tools v27
-* News API
+* [News API](https://newsapi.org/)
+* [Okhttp](http://square.github.io/okhttp/)
+* [GSON](https://github.com/google/gson)
 ## API Key
 You must provide your own News API key in order to connect with the API and fetch news data from it. Just put your API key into ``` ~/.config/Config.java ``` file (create the file if it does not exist already):
 ```

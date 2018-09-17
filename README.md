@@ -16,6 +16,9 @@ You must provide your own News API key in order to connect with the API and fetc
 ```
 public static final String API_KEY = "Your own KEY News API";
 ```
+## Screenshots
+<img src="https://raw.githubusercontent.com/bagaswirapradana/news-app/master/screenshoot_news.png" data-canonical-src="https://raw.githubusercontent.com/bagaswirapradana/news-app/master/screenshoot_news.png" width="300"/>
+
 ## License
 ```
 Copyright 2018 Bagas Wira Pradana

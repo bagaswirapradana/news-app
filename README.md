@@ -1,4 +1,4 @@
-# News App
+# News App (Berta - Berita Kita)
 This application is connected to the internet and retrieves news from the News API using OkHttp, which is then parsed using Gson. The information described is then presented as news feed. Navigation Drawer displays news sources from the News API with the help of List View and Fragment, making it easier for users to access news sources with just a finger sweep.
 ## Objective
 * A page which display list of news sources (ex: BBC, TheVerge, dll)
@@ -12,7 +12,10 @@ This application is connected to the internet and retrieves news from the News A
 * Android Build Tools v27
 * News API
 ## API Key
-You must provide your own News API key in order to connect with the API and fetch news data from it. Just put your API key into ~/.config/Config.java file
+You must provide your own News API key in order to connect with the API and fetch news data from it. Just put your API key into ``` ~/.config/Config.java ``` file (create the file if it does not exist already):
+```
+public static final String API_KEY = "Your own KEY News API";
+```
 ## License
 ```
 Copyright 2018 Bagas Wira Pradana
